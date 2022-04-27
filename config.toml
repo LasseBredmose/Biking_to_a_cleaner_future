@@ -2,7 +2,7 @@ baseURL = "https://lassebredmose.github.io/Biking_to_a_cleaner_future/"
 title = "Biking to a cleaner future"
 description = "This is a project description"
 relativeURLs = true
-theme = "jekyll-theme-cayman" 
+theme = "theme" 
 [params]
     authors = ["Maria Mandrup Fogh", "Enny Tao", "Lasse Enevold Bredmose"]
     notebook = "/explainer-notebook.html"

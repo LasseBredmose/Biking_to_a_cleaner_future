@@ -4,7 +4,7 @@ description = "This is a project description"
 relativeURLs = true
 theme = "theme" 
 [params]
-    authors = ["Maria Krog", "Enny Tao", "Lasse Bredmose"]
+    authors = ["Maria Mandrup Fogh", "Enny Tao", "Lasse Enevold Bredmose"]
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
     github = "https://github.com/lassebredmose/Biking_to_a_cleaner_future"

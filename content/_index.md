@@ -9,7 +9,7 @@ Hello and welcome to this project
 # Preliminary research 
 First of we did some some
 
-# Why are cars better?
+# Why are cars better
 cars are just better
 
 # Something with weather

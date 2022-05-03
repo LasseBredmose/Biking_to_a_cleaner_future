@@ -9,37 +9,14 @@ Hello and welcome to this project
 # Preliminary research 
 First of we did some some
 
-# Why are cars better
+# Why are cars better?
 cars are just better
 
 # Something with weather
 Weather is always nice
 
 # ML
-mldkjhfng
-nnmkdjnb
-
-ndlkfnb
-
-
-dnlkbnd  
-
-dlkgndkb  
-
-dlkgn kdn
-
- dkfg dlk
- 
-  dkgn dn 'dg 
-  dogj
-   djg
-   d jg
-   dgjk d
-   kg 
-   d 
-   
-   
-   doljgdælkg
+ml
 
 # Conclusion
 welp

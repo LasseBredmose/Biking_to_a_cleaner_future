@@ -1,5 +1,5 @@
 ---
-title: Biking to a cleaner future
+title: Home Page
 layout: single
 ---
 

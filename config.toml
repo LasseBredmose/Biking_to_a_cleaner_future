@@ -1,6 +1,7 @@
 baseURL = "https://lassebredmose.github.io/Biking_to_a_cleaner_future/"
 title = "Biking to a cleaner future"
-description = "This is a project description"
+subtitle = "This is the subtitle"
+description = "This is a description"
 relativeURLs = true
 theme = "theme" 
 [params]

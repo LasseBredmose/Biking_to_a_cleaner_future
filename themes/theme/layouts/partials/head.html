@@ -10,9 +10,19 @@
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <style>
-      .Fixed {
+
+    .page-header {
+      background-image: url(../../../static/images/dtu-logo.png);
+      background-position: center;
+      background-blend-mode: darken;
+    }
+
+    .project-tagline {
+      opacity: 1;
+    }
+    .Fixed {
       overflow: hidden;
-      background-color: #333;
+      background-color: olivedrab;
       position: fixed; /* Set the navbar to fixed position */
       top: 0; /* Position the navbar at the top of the page */
       width: 100%; /* Full width */
@@ -33,8 +43,8 @@
 
     /* Change background on mouse-over */
     .Fixed a:hover {
-      background: #ddd;
-      color: black;
+      background: rgb(72, 108, 7);
+      color: white;
     }
     
     /* Main content */
@@ -53,6 +63,10 @@
     h2 {
       scroll-margin-top: 60px;	
     }
+  </style>
+
+  <style>
+    h1{color:olivedrab}
   </style>
   
   <style type="text/tailwindcss">

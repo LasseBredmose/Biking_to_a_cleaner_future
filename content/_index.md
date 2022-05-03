@@ -1,5 +1,5 @@
 ---
-title: Home Page
+title: Something nice
 layout: single
 ---
 

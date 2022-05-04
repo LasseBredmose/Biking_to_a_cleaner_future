@@ -9,4 +9,3 @@ theme = "theme"
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
     github = "https://github.com/lassebredmose/Biking_to_a_cleaner_future"
-

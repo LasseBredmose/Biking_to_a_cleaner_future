@@ -20,12 +20,12 @@
     @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
 
 
-    .project-name { margin-top: 0; margin-bottom: 0.1rem; font-weight: bold; margin-top: 0.0px; }
+    .project-name { color: rgb(39,56,96); margin-top: 0rem; margin-bottom: 0.1rem; font-weight: bold;  }
     @media screen and (min-width: 64em) { .project-name { font-size: 3.25rem; } }
     @media screen and (min-width: 42em) and (max-width: 64em) { .project-name { font-size: 2.25rem; } }
     @media screen and (max-width: 42em) { .project-name { font-size: 1.75rem; } }
 
-    .project-tagline { margin-bottom: 2rem; font-weight: normal; opacity: 0.7; }
+    .project-tagline { color: rgb(39,56,96); margin-bottom: 2rem; font-weight: normal; opacity: 0.7; }
     @media screen and (min-width: 64em) { .project-tagline { font-size: 1.25rem; } }
     @media screen and (min-width: 42em) and (max-width: 64em) { .project-tagline { font-size: 1.15rem; } }
     @media screen and (max-width: 42em) { .project-tagline { font-size: 1rem; } }
@@ -37,7 +37,7 @@
       background-blend-mode: darken;
       background-size: 1500px 650px;
       background-repeat: no-repeat;
-      height: 500px;
+      height: 650px;
     }
     .project-tagline {
       opacity: 1;
@@ -92,9 +92,24 @@
   </style>
 
   <style>
-    h1.colors{color:#488545}
-    h2.colors{color:#488545}
-    h3.colors{color:#41963d}
+    .main_content h1{
+      color:rgb(122,154,234);
+      font-size: 1.75rem;
+      line-height: 2rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;}
+    .main_content h2{
+      color:rgb(122,154,234);
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;}
+    .main_content h3{
+      color:rgb(122,154,234);
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;}
   </style>
 
 <style type="text/tailwindcss">
@@ -112,11 +127,7 @@
         @apply no-underline;
         @apply hover:underline;
       }
-      h3 {
-        @apply py-2;
-        @apply font-sans;
-        @apply text-lg;
-      }
+
       ol {
         @apply px-8;
         @apply list-decimal;

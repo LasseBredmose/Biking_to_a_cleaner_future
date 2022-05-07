@@ -3,19 +3,19 @@ title: Something nice
 layout: single
 ---
 
-# Introduction
+# Introduction {#identifier .headings}
 Hello and welcome to this project
 
-# Preliminary research 
+# Preliminary research {#identifier .headings}
 First of we did some some
 
-# Why are cars better
+# Why are cars better {#identifier .headings}
 cars are just better
 
-# Something with weather
+# Something with weather {#identifier .headings}
 Weather is always nice
 
-# ML
+# ML {#identifier .headings}
 mldkjhfng
 nnmkdjnb
 
@@ -41,10 +41,10 @@ dlkgn kdn
    
    doljgdælkg
 
-# Conclusion
+# Conclusion {#identifier .headings}
 welp
 
-# Data
+# Data {#identifier .headings}
 Notes on the data
 
 ## [Explainer Notebook](explainer-notebook.html)

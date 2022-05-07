@@ -5,6 +5,24 @@ layout: single
 
 # Introduction
 Copenhagen, a frontier for bicycling and an inspiration for the rest of the world(except Amsterdam). A beacon for the future in these trying times, where battling climate changes and fossil fuels is reduced to an everyday problem that most of us are tired of hearing on repeat. 
+<style>
+.bk-root {
+display: flex;
+justify-content: center;
+}
+
+.bk-root > .bk {
+flex-shrink: 0;
+}
+
+.awesome-marker .fa {
+  margin-top: 10px;
+}
+
+.plotly-graph-div {
+  margin: 20px 0px 20px 0px;
+}
+</style>
 # Preliminary research
 First of we did some some
 
@@ -48,7 +66,7 @@ welp
 	height="500"
 	scrolling="no"
 	seamless="seamless"
-	frameborder="0">
+	frameborder="1">
 </iframe>
 # Data
 <iframe src="/html/map_hooray_points.html"

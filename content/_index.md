@@ -1,21 +1,20 @@
 ---
-title: Something nice
+title: Biking to a cleaner future
 layout: single
 ---
 
-# Introduction {#identifier .headings}
-Hello and welcome to this project
-
-# Preliminary research {#identifier .headings}
+# Introduction
+Copenhagen, a frontier for bicycling and an inspiration for the rest of the world(except Amsterdam). A beacon for the future in these trying times, where battling climate changes and fossil fuels is reduced to an everyday problem that most of us are tired of hearing on repeat. 
+# Preliminary research
 First of we did some some
 
-# Why are cars better {#identifier .headings}
+# Why are cars better
 cars are just better
 
-# Something with weather {#identifier .headings}
+# Something with weather
 Weather is always nice
 
-# ML {#identifier .headings}
+# ML
 mldkjhfng
 nnmkdjnb
 
@@ -41,10 +40,28 @@ dlkgn kdn
    
    doljgdælkg
 
-# Conclusion {#identifier .headings}
+# Conclusion
 welp
-
-# Data {#identifier .headings}
+<iframe src="/html/num_obs_by_year.html"
+	sandbox="allow-same-origin allow-scripts"
+	width="100%"
+	height="500"
+	scrolling="no"
+	seamless="seamless"
+	frameborder="0">
+</iframe>
+# Data
+<iframe src="/html/map_hooray_points.html"
+	sandbox="allow-same-origin allow-scripts"
+	width="100%"
+	height="500"
+	scrolling="no"
+	seamless="seamless"
+	frameborder="0">
+</iframe>
 Notes on the data
+
+# References
+
 
 ## [Explainer Notebook](explainer-notebook.html)

@@ -88,19 +88,3 @@ Notes on the data
 
 
 ## [Explainer Notebook](explainer-notebook.html)
-
-
-
-
-# 1. Motivation
-## What is your dataset?
-For this project we have chosen to work with 2 different datasets. 
-Our initial dataset consisted of traffic-data taken from [opendata.dk](https://www.opendata.dk/city-of-copenhagen/trafiktal). The dataset was primarly focused upon motorised vehicles(cars, scootes, trucks etc.) and non-motorised vehicles(bicyckle, electrical scooters, pedestrian etc.). However as the dataset was already preprocessed and not tailored to our needs, we ended up with a second dataset consisting of all the raw unprocessed data from the year of xxxx to 2019. The new dataset along with the traffic_counting_in_cph.pdf**link** has been optained by corrospondance with counting co-ordinator Åse Boss Henrichsen**Skud ud**. To limit our research we have focused on data taken 2007 to 2019. For illustration *purpusesses* we have included the districts and geodata from the opendata.dk dataset and merged it with the raw data, thus getting the best from both datasets. 
-
-For our predictive analysis we have optained data from [DMI](https://confluence.govcloud.dk/pages/viewpage.action?pageId=26476616) via an api-call. As data-prepocessing we have extracted the wind, rain and temperature per hour according to the dates where a count has been registered in the other dataset. 
-
-## Why did you choose this/these particulair dateset(s)?
-The data has been chosen given the unique possibility of tracking not only vehicles but also bikes and compare them against each other. A tracking made possible by the high bicyckling trend in Denmark. Further it is a relevant focus area given the reasen years focus on climate changes. 
-
-## What was your goal for the end user's experience?
-The primary goal for this project has been to visualize and educate the reader in regards to bicyckling trends in Copenhagen. We want to draw in the reader using relaxing colours and interactive plots such as Bookeh, while combining it with a visually "easy-to-read" website. Given the user the possibility for educating themselves, forming their own opinions, guided by us, in a intuiative reading manner. 

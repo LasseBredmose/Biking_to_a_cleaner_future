@@ -22,23 +22,22 @@ Finally we take a *hard* look on external factors, such as weather and temperatu
 </iframe>
 </div>
 
-To conduct our analysis, we need some data. Thus the data used is a preprocessed [traffic data set from OpenData](https://www.opendata.dk/city-of-copenhagen/trafiktal), originally from the Copenhagen Municipality. The data has further been combined with the original raw dataset to gain further information and limited to a 10-year period of 2009 to 2018. The data is obtained by people (our so-called *counters*) who have stood at various locations in Copenhagen to count the number of passing bikes or cars. Most of the *counters* have been placed in central Copenhagen, Vesterbro and Nørrebro, along with some of the main roads. There are even a few *counters* in Frederiksberg, although not being within the municipality and no *counters* in Nordhavn.
+To conduct our analysis, we need some data. Thus the data used is a preprocessed [traffic data set from OpenData](https://www.opendata.dk/city-of-copenhagen/trafiktal), originally collected by the Copenhagen Municipality. The data has further been combined with the original raw dataset to gain further information and limited to a 10-year period of 2009 to 2018. The data is obtained by people (our so-called *counters*) who have stood at various locations in Copenhagen to count the number of passing bikes or cars. Most of the *counters* have been placed in central Copenhagen, Vesterbro and Nørrebro, along with some of the main roads. There are even a few *counters* in Frederiksberg, although not being within the municipality and no *counters* in Nordhavn.
 
 ## Inspection throughout years
-
-**Skal vi opfordre læseren til at bruge de interaktive visualiseringer?**
-
-Firstly, let us look at the entire time period and the levels for bikes and cars for each year. The number of observations for our two modes of transport is steady throughout all years, although a drop is seen for the year of 2017. It might be tempting to jump the conclusion that there must have been less bikes and less cars within this year, but it is important to keep in mind that we are dealing with count data!
+Firstly, let us look at the entire time period and the levels for bikes and cars for each year. The number of observations for our two modes of transport is steady throughout all years, although a drop is seen for the year of 2017. It might be tempting to jump the conclusion that there must have been less bikes and less cars within this year, but it is important to keep in mind that we are dealing with count data! So there could be other reasons for this dip. Let us inspect whether this is the case by **hovering** over the bars in the visualization.
 <iframe src="/html/num_obs_by_year.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	align="center"
-	height="500"
+	height="420"
 	scrolling="no"
 	seamless="seamless"
 	frameborder="1">
 </iframe>
+Aha! We observe that there are less counters for this year, and the fraction of bikes and cars stays somewhat constant for all years. However, the drop does seem quite extreme compared to other years, where the number of counters was small also, such as in 2010 and 2015 for which the same phenomenon is not seen.
 
+## Inspection throughout months
 <iframe src="/html/num_obs_by_month.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"

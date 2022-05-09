@@ -35,7 +35,7 @@ Firstly, let us look at the entire time period and the levels for bikes and cars
 	seamless="seamless"
 	frameborder="1">
 </iframe>
-Aha! We observe that there are less counters for this year, and the fraction of bikes and cars stays somewhat constant for all years. However, the drop does seem quite extreme compared to other years, where the number of counters was small also, such as in 2010 and 2015 for which the same phenomenon is not seen.
+We see that the fraction of bikes and cars stays somewhat constant for all years, but there are less counters for the year of 2017, which could have caused the drop. We would expect that the fewer counters you have, the less observations there will be. However, by further inspection, the number of counters might not be the entire reason for this phenomenon. The drop in counters from 2014 to 2015, for example, is 60 - the exact same as the drop in counters from 2015 to 2017. But the gap in the number of observations is much larger from 2015 to 2017, than between 2014 and 2015. Therefore, we could imagine that external factors could also have contributed to the drop.
 
 ## Inspection throughout months
 <iframe src="/html/num_obs_by_month.html"

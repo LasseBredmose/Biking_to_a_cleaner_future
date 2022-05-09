@@ -4,9 +4,8 @@ layout: single
 ---
 
 # Good, better, Copenhagen 
-With more than 350 km of bicycling tracks, and the initaite from the city of Copenhagen "good, better, best – The City of Copenhagen's Bicycle Strategy 2011–2025" how does Copenhagen fair in todays world? 
-
-Copenhagen, a frontier for bicycling and an inspiration for the rest of the world(*except Amsterdam*). Everyday more than 1.2 million kilometres are cycled in Copenhagen. More than half of the population in Copenhagen, prefer to bike to work or school [ref](https://web.archive.org/web/20190707123514/https://www.kk.dk/indhold/62-af-koebenhavnerne-cykler-til-arbejde-og-uddannelse).  
+Every other should bike to school or work, better bicycling parking facilities at stations, 30-40km additional tracks and lanes and more. Such are some of the initiatives stated in the initiative *Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025* introduced by the city council of Copenhagen in *2011*. Created as a part of making Copenhagen a carbon neutral city in the year of *2025*. With *2025* coming closer we take a deep dive into see just how the initiave have influence the copenhagernes bicyckling habbits, if one can spot changes looking at a 11-year period from *2009* to *2018*, and if vehicles still dominate the roads across Copenhagen.
+Finally we take a *hard* look on external factors, such as weather and temperature in order to anaylse and perhabs predict influences corralated with up's and down's in the habits of taking the car or bike. 
 
 # Data
 
@@ -118,7 +117,10 @@ dlkgn kdn
 
 
 # References
-
+## Links and websites
+* [Wiki_cyckling](https://en.wikipedia.org/wiki/Cycling_in_Copenhagen#Infrastructure)
+* [Cyckling, better and best](https://web.archive.org/web/20120906180553/http://www.kk.dk/sitecore/content/Subsites/CityOfCopenhagen/SubsiteFrontpage/LivingInCopenhagen/CityAndTraffic/CityOfCyclists/~/media/A6581E08C2EF4275BD3CA1DB951215C3.ashx)
+* [Urban cycling in cph](https://urbandevelopmentcph.kk.dk/node/14)
 
 ## [Explainer Notebook](explainer-notebook.html)
 
@@ -128,9 +130,3 @@ dlkgn kdn
 * Udviklingen gennem årerne. Sker ikke så meget, interessant i 2017. nok bare talt mindre? 
 
 
- With more than [350 km](https://en.wikipedia.org/wiki/Cycling_in_Copenhagen#Infrastructure) of bicyckling tracks, a relative small amount compared to the population, it remains o
-
-
-Copenhagen, a frontier for bicycling and an inspiration for the rest of the world(except Amsterdam). A beacon for the future in these trying times, where battling climate changes and fossil fuels is reduced to an everyday problem that most of us are tired of hearing on repeat. 
-But does Copenhagen live up to such glorius rumors or is it still a city dominated by cars, despite the persistent efforts from the elected officials. 
-This and more will be researched and highlighted 

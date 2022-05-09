@@ -50,7 +50,7 @@ Next we can take a look at the monthly time period, accumulated throughout all o
 	seamless="seamless"
 	frameborder="1">
 </iframe>
-In August we notice a small amount of counters as well as a small amount of observations, which diverge from the guide once more, stating that August is a active counting month. 
+In August we notice a small amount of counters as well as a small amount of observations, which diverge from the guide once more, stating that August is a active counting month. However, a deeper look into the guide tells us that August, along with June, is a active month for counting pedestrians. Given at least one reason, why the amount of cars/bikes is so small. Adding that the small observations we have, simply could be miss-countings from the counting of pedestrians. 
 
 # Daily patterns
 As it is difficult to obtain sufficient information of patterns throughout years and months, let us look at the evolution throughout the day, from 7 to 19 as these are the limitations of the dataset. For both bikes and cars, the peaks are in the morning and in the afternoon, fitting with when most people need to go to work, school or other daily obligations and back home. 

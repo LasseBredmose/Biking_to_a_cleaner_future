@@ -3,7 +3,10 @@ title: Biking to a cleaner future
 layout: single
 ---
 
-# Introduction
+# Good, better, copenhagen 
+Copenhagen, a frontier for bicycling and an inspiration for the rest of the world(*except Amsterdam*). With more than [350 km](https://en.wikipedia.org/wiki/Cycling_in_Copenhagen#Infrastructure) of bicyckling tracks, a relative small amount compared to the population, it remains o
+
+
 Copenhagen, a frontier for bicycling and an inspiration for the rest of the world(except Amsterdam). A beacon for the future in these trying times, where battling climate changes and fossil fuels is reduced to an everyday problem that most of us are tired of hearing on repeat. 
 But does Copenhagen live up to such glorius rumors or is it still a city dominated by cars, despite the persistent efforts from the elected officials. 
 This and more will be researched and highlighted 
@@ -88,3 +91,8 @@ Notes on the data
 
 
 ## [Explainer Notebook](explainer-notebook.html)
+
+** The website **
+* Introduction/Motivation(short)
+* Tælledata, map hvor vi har talt henne. Ref til åsepiges pdf. 
+* Udviklingen gennem årerne. Sker ikke så meget, interessant i 2017. nok bare talt mindre? 

@@ -3,20 +3,57 @@ title: Biking to a cleaner future
 layout: single
 ---
 
-# Good, better, copenhagen 
+# Good, better, Copenhagen 
 Copenhagen, a frontier for bicycling and an inspiration for the rest of the world(*except Amsterdam*). With more than [350 km](https://en.wikipedia.org/wiki/Cycling_in_Copenhagen#Infrastructure) of bicyckling tracks, a relative small amount compared to the population, it remains o
 
 
 Copenhagen, a frontier for bicycling and an inspiration for the rest of the world(except Amsterdam). A beacon for the future in these trying times, where battling climate changes and fossil fuels is reduced to an everyday problem that most of us are tired of hearing on repeat. 
 But does Copenhagen live up to such glorius rumors or is it still a city dominated by cars, despite the persistent efforts from the elected officials. 
 This and more will be researched and highlighted 
+
+# Data
+
+<iframe src="/html/map_hooray_points.html"
+	sandbox="allow-same-origin allow-scripts"
+	width="100%"
+	height="500"
+	scrolling="no"
+	seamless="seamless"
+	frameborder="0">
+</iframe>
+Notes on the data
+
 # Preliminary research
 First of we did some some
+<iframe src="/html/num_obs_by_year.html"
+	sandbox="allow-same-origin allow-scripts"
+	width="100%"
+	height="500"
+	scrolling="no"
+	seamless="seamless"
+	frameborder="1">
+</iframe>
 
-# Why are cars better
-cars are just better
+<iframe src="/html/num_obs_by_month.html"
+	sandbox="allow-same-origin allow-scripts"
+	width="100%"
+	height="500"
+	scrolling="no"
+	seamless="seamless"
+	frameborder="1">
+</iframe>
 
-# Something with weather
+# Temporal Patterns
+<iframe src="/html/num_obs_by_hour.html"
+	sandbox="allow-same-origin allow-scripts"
+	width="100%"
+	height="500"
+	scrolling="no"
+	seamless="seamless"
+	frameborder="1">
+</iframe>
+
+# Impact of the weather
 Weather is always nice
 
 # ML
@@ -45,47 +82,8 @@ dlkgn kdn
    
    doljgdælkg
 
-<iframe src="/html/num_obs_by_hour.html"
-	sandbox="allow-same-origin allow-scripts"
-	width="100%"
-	height="500"
-	scrolling="no"
-	seamless="seamless"
-	frameborder="1">
-</iframe>
-
 # Conclusion
-welp
-<iframe src="/html/num_obs_by_month.html"
-	sandbox="allow-same-origin allow-scripts"
-	width="100%"
-	height="500"
-	scrolling="no"
-	seamless="seamless"
-	frameborder="1">
-</iframe>
 
-<iframe src="/html/num_obs_by_year.html"
-	sandbox="allow-same-origin allow-scripts"
-	width="100%"
-	height="500"
-	scrolling="no"
-	seamless="seamless"
-	frameborder="1">
-</iframe>
-
-
-# Data
-
-<iframe src="/html/map_hooray_points.html"
-	sandbox="allow-same-origin allow-scripts"
-	width="100%"
-	height="500"
-	scrolling="no"
-	seamless="seamless"
-	frameborder="0">
-</iframe>
-Notes on the data
 
 # References
 

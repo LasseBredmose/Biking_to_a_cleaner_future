@@ -15,12 +15,12 @@ Finally we take a *hard* look on external factors, such as weather and temperatu
 <iframe src="/html/map_points.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="60%"
-	height="450"
+	height="425"
 	scrolling="no"
 	seamless="seamless"
 	frameborder="0"
 	align="left"
-	style="margin-right: 0.5em; margin-top: 1em; margin-bottom: 1em;">
+	style="margin-right: 0.5em; margin-top: 0em; margin-bottom: 0em;">
 </iframe>
 </div>
 
@@ -43,21 +43,25 @@ We see that the fraction of bikes and cars stays somewhat constant for all years
 <iframe src="/html/num_obs_by_month.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
-	height="500"
+	height="420"
 	scrolling="no"
 	seamless="seamless"
 	frameborder="1">
 </iframe>
 
-# Temporal Patterns
+# Daily patterns
+As it is difficult to obtain sufficient information of patterns throughout years and months, let us look at the evolution throughout the day, from 7 to 19 as these are the limitations of the dataset. For both bikes and cars, the peaks are in the morning and in the afternoon, fitting with when most people need to go to work, school or other daily obligations and back home. 
+
 <iframe src="/html/num_obs_by_hour.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
-	height="500"
+	height="420"
 	scrolling="no"
 	seamless="seamless"
 	frameborder="1">
 </iframe>
+
+It is worth noticing that there is a difference in the ratios between bikes and cars in the morning. From 7 to 8, the gap between the amount of cars and bikes is larger than from 9 to 10. This could be due to how people with cars tend to have a longer commute e.g. having to get out of the city, or they could have kids that need to be dropped off, thus having to wake up earlier. With a car, traffic also plays a larger factor than with bikes. It would thus not be entirely surprising if there is a need for getting up earlier to avoid running into that.
 
 # Spatial Patterns
 ## Bikes

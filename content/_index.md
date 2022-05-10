@@ -120,7 +120,15 @@ By **zooming in on the map**, it is seen that there is a clear impact on many of
 </div>
 
 ...And now to the weather.  
-As mentioned earlier we have required data of the specific weather for **each??** of the days when the counting took place. The data is measured using three different weather stations, where each of them can measure precipitation, wind and/or temperature. The specific measure equipment for each of the weather stations can be seen, by **clicking** on each of the markers. In order to work with the data, we have taken an average when for the days where multiple weather stations have collected the same measurement-type type.
+As mentioned earlier we have accuried data of the specific weather for **each??** of the days when the counting took place. The data is measured using three different weather stations, where each of them can measure precipitation, wind and/or temperature. The specific measure equipment for each of the weather stations can be seen, by **clicking** on each of the markers. In order to work further with the data, we have taken an average for the days where multiple weather stations have collected the same measurement-type.  
+
+In the figure/graphs? below we can see the measurements for the temperature, wind speed, and precipitation. **Note that the figures/graphs are only a subset of the data, as it can be hard to notice trends when observing the whole period.**
+Each data point is added as a circle on the graph, thus one can see which periods we have datapoints for.
+Using the zoom tool one discovers the absence of data points from november to april, a period with occurs almost every year. 
+
+
+
+
 
 <iframe src="/html/temp_wind_precip_development.html"
 	sandbox="allow-same-origin allow-scripts"
@@ -134,7 +142,7 @@ As mentioned earlier we have required data of the specific weather for **each??*
 <iframe src="/html/temp_wind_precip_bikescars.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
-	height="400"
+	height="300"
 	scrolling="no"
 	seamless="seamless"
 	frameborder="1">
@@ -208,6 +216,7 @@ We are happy with our data analysis, where we had lots of problems, but also ove
   * Compare with automatic countings. 
   * Not enough data points to get a good Machine Learning Model. We are only looking in the summer interval. 
   * The weather data examination could have been improved, by taking average days. 
+  * Adding datas to the weather data long graph. 
 
 
 When working with the data one quickly discovers the incompletness of ones data. We found that we were heavily handicapped by the sparesome data samples. As each place had only been counted once a year, and many of the countings spots have shifted throughtout the years, resulting in a reduction of the patterns we could look at. 

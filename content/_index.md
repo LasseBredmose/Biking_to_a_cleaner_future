@@ -38,7 +38,7 @@ Firstly, let us look at the entire time period and the levels for bikes and cars
 We see that the fraction of bikes and cars stays somewhat constant for all years, but there are less counters for the year of 2017, which could have caused the drop. We would expect that the fewer counters we have, the less observations there will be. However, by further inspection, the number of counters might not be the entire reason for this phenomenon. The drop in counters from 2014 to 2015, for example, is 60 - the exact same as the drop in counters from 2015 to 2017. However, the gap in the number of observations is much larger from 2015 to 2017, than between 2014 and 2015. Therefore, we could imagine that other factors could also have contributed to the drop.
 
 ## Inspection throughout months
-Nextly, we can take a look at the monthly time period, accumulated throughout all years. In a provided *counting guide* [2], we observe that the frequent counting months are May, June, August, September, and October. Looking at the data, we observe a relatively high amount of observations in April. By **hovering** over the bar, we are informed that the month of April is one of the months with most counters, despite not being featured as an official month from the guide. Unfortunately, we can only speculate on why this is the case. However, as they do special countings ordered by external entities, such as the *University of Aarhus* or *Vejdirektoratet*, more pressing matters might have forced them to count outside the regular schedule. 
+Nextly, we can take a look at the monthly time period, accumulated throughout all years. In a provided *counting guide* , we observe that the frequent counting months are May, June, August, September, and October [2]. Looking at the data, we observe a relatively high amount of observations in April. By **hovering** over the bar, we are informed that the month of April is one of the months with most counters, despite not being featured as an official month from the guide. Unfortunately, we can only speculate on why this is the case. However, as they do special countings ordered by external entities, such as the *University of Aarhus* or *Vejdirektoratet*, more pressing matters might have forced them to count outside the regular schedule. 
 <iframe src="/html/num_obs_by_month.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -50,7 +50,7 @@ Nextly, we can take a look at the monthly time period, accumulated throughout al
 In August, we notice a small amount of counters along with a small amount of observations, which also diverges from the guide, stating that August is an active counting month. However, a deeper look into the guide tells us that August, along with June, are active months for counting pedestrians. Thus, it can be a reason why we see observations for these months, as some counters might have included bikes and cars in their countings.
 
 # Daily patterns
-As it is difficult to obtain sufficient information of patterns throughout years and months, let us look at the evolution throughout the day, from 7 to 19 as these are the limitations of the dataset. For both bikes and cars, the peaks are in the morning and in the afternoon, fitting with when most people need to go to work, school or other daily obligations and back home. For simplicity it is also possible to only look at cars or bikes, by **toggling** either cars or bikes off in the plot. 
+It is difficult to obtain sufficient information of patterns throughout the years and months. Instead, let us look at the development in activity from 7 to 19. For both bikes and cars, the peaks are in the morning and afternoon, which fits with when most people need to go to work, school or other daily obligations and return home. For gaining a simple overview, it is also possible to only look at cars or bikes, by **toggling** either cars or bikes off in the plot. 
 <iframe src="/html/num_obs_by_hour.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -60,7 +60,7 @@ As it is difficult to obtain sufficient information of patterns throughout years
 	frameborder="1">
 </iframe>
 
-It is worth noticing that there is a difference in the ratios between bikes and cars in the morning. From 7 to 8, the gap between the amount of cars and bikes is larger than from 9 to 10. This could be due to how people with cars tend to have a longer commute e.g. having to get out of the city, or they could have kids that need to be dropped off, thus having to wake up earlier. With a car, traffic also plays a larger factor than with bikes. It would thus not be entirely surprising if there is a need for getting up earlier to avoid running into that.
+It is worth noticing that there is a difference in the ratios between bikes and cars in the morning. From 7 to 8, the gap between the amount of cars and bikes is larger than from 9 to 10. This could be explained by how people with cars tend to have a longer commute e.g. having to get out of the city, or dropping off kids, thus having to leave their home earlier. With a car, traffic also plays a larger factor than with bikes. It would thus not be entirely surprising if there is a need for getting up earlier to avoid running into that.
 
 # Spatial patterns
 ## (KAN BLIVE LAVET TIL EN MINDRE SECTION)
@@ -182,9 +182,6 @@ Looking at the figures we see that there does
 
 
 # References
-* [1] Baykal, Ayfer(2011). "Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025", The city of Copenhagen, available at: <https://web.archive.org/web/20120906180553/http://www.kk.dk/sitecore/content/Subsites/CityOfCopenhagen/SubsiteFrontpage/LivingInCopenhagen/CityAndTraffic/CityOfCyclists/~/media/A6581E08C2EF4275BD3CA1DB951215C3.ashx>
-* [2] Henrichsen, Åse Boss and Spliid, Lone(2020). "Sådan udfører vi trafiktællinger i Københavns kommune". Municipality of Copenhagen: Københavns Teknik- og Miljøforvaltning. Available at <https://github.com/LasseBredmose/social_data_2022_project/blob/main/Trafiktællevejledning.pdf>
-
 ## Links and websites
 * [Wiki_cyckling](https://en.wikipedia.org/wiki/Cycling_in_Copenhagen#Infrastructure)
 * [Cyckling, better and best](https://web.archive.org/web/20120906180553/http://www.kk.dk/sitecore/content/Subsites/CityOfCopenhagen/SubsiteFrontpage/LivingInCopenhagen/CityAndTraffic/CityOfCyclists/~/media/A6581E08C2EF4275BD3CA1DB951215C3.ashx)

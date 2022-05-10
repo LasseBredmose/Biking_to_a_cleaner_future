@@ -104,7 +104,28 @@ For cars, it is a bit of a different story, although similar in some areas. *Ind
 By **zooming in on the map**, it is seen that there is a clear impact on many of the main roads leading into and out of *Indre by* such as *Ågade*, *Åboulevard*, *Nørre Allé* and *Tuborgvej*. Also, high activity points can be found for roads leading out of the city, e.g. *Frederikssundsvej*, *Jyllingevej*, *Roskildevej*, *Hareskovvej* and *Strandvejen*, indicating that those people with cars would have longer commutes. Thus riding a bike might not be as straight forward of an option, especially when considering the additional travel time and the unpredictable weather in Copenhagen.
 
 # Impact of the weather
-Weather is always nice
+<div>
+<iframe src="/html/map_weather.html"
+	sandbox="allow-same-origin allow-scripts"
+	width="50%"
+	height="500"
+	scrolling="no"
+	seamless="seamless"
+	frameborder="0"
+	align="right"
+	style="margin-right: 0.5em; margin-top: 0.4em; margin-bottom: 1em;">
+
+</iframe>
+</div>
+
+<iframe src="/html/temp_wind_precip_development.html"
+	sandbox="allow-same-origin allow-scripts"
+	width="100%"
+	height="700"
+	scrolling="no"
+	seamless="seamless"
+	frameborder="1">
+</iframe>
 
 # ML
 mldkjhfng

@@ -3,7 +3,7 @@ title: Biking to a cleaner future
 layout: single
 ---
 
-# Good better Copenhagen 
+# Good, better, Copenhagen 
 At least 50% percent should bike to school or work, better parking facilities for bicycles at stations, 30-40 km of additional tracks and lanes. Such are some of the goals stated in the initiative *Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025* introduced by the city council of Copenhagen in 2011 [1]. This was created as a part of making Copenhagen a carbon neutral city in the year of 2025. With 2025 coming closer, we take a deep dive to investigate just how the initiaves have influenced the copenhagernes' bicycling habits. We will look into whether changes at a 10-year period from 2009 to 2018 can be spotted, and if vehicles still dominate the roads across Copenhagen. Finally we include weather conditions to analyze their influences on our daily transportation patterns.
 
 # Data
@@ -22,7 +22,7 @@ At least 50% percent should bike to school or work, better parking facilities fo
 </iframe>
 </div>
 
-To conduct our analysis, we need some data. Thus the data used is a preprocessed [*traffic data set from OpenData*](https://www.opendata.dk/city-of-copenhagen/trafiktal), originally collected by the Copenhagen Municipality. The data has further been combined with the original raw dataset to gain further information and limited to a 10-year period of 2009 to 2018. The data is obtained by people (our so-called *counters*) who have stood at various locations in Copenhagen to count the number of passing bikes or cars. Most of the *counters* have been placed in central Copenhagen, Vesterbro and Nørrebro, along with some of the main roads. This can be seen on the map to the left, for which the reader is encouraged to explore. There are even a few *counters* in Frederiksberg, although the district not being within the municipality and no *counters* in Nordhavn.
+To conduct our analysis, we need some data. Thus the data used is a preprocessed [*traffic dataset from OpenData*](https://www.opendata.dk/city-of-copenhagen/trafiktal), originally collected by the Copenhagen Municipality. The data has further been combined with the original raw dataset to gain further information and limited to a 10-year period of 2009 to 2018. The data is obtained by people (our so-called *counters*) who have stood at various locations in Copenhagen to count the number of passing bikes and cars. Most of the *counters* have been placed in central Copenhagen, Vesterbro and Nørrebro, along with some of the main roads. This can be seen on the map to the left, for which the reader is encouraged to explore. There are even a few *counters* in Frederiksberg, although the district not being within the municipality, but no *counters* in Nordhavn.
 
 ## Inspection throughout years
 Firstly, let us look at the entire time period and the levels for bikes and cars for each year. The number of observations for our two modes of transport is steady throughout all years, although a drop is seen for the year of 2017. It might be tempting to jump the conclusion that there must have been less bikes and less cars within this year, but it is important to keep in mind that we are dealing with count data! So there could be other reasons for this dip. Let us inspect whether this is the case by **hovering** over the bars in the visualization.

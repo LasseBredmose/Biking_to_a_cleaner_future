@@ -84,7 +84,7 @@ By **playing** the video, it can be seen that during rush hour, both in the morn
 The reader is encouraged to use the **hover tool** to discover the aggregated total amount of bikes in Copenhagen. From here, we see that *Indre By* is the district with by far the most bikes throughout the entire time period also, fitting with how the activity level is always high here.
 
 ### Cars
-For cars, it is a bit of a different story, although similar in some areas. *Indre by* remains the district that constantly have high levels of activity, but interestingly, there is a larger spread of cars throughout various other districts than with bikes! This is especially seen during the morning and afternoon, which follows closely with how people with cars would have to ride longer distances and thus having to pass the outer districts too.
+For cars, it is a bit of a different story, although similar in some areas. *Indre By* remains the district that constantly has high levels of activity, but interestingly, there is a larger spread of cars throughout various other districts than with bikes. This is especially seen during the morning and afternoon, which follows closely with how people with cars would have longer commutes and thus having to pass the outer districts too.
 
 <iframe src="/html/map_time_cars.html"
 	id="right_frame"
@@ -97,7 +97,7 @@ For cars, it is a bit of a different story, although similar in some areas. *Ind
 	style="margin-top: 1em; margin-bottom: 1em">
 </iframe>
 
-By **zooming in on the map**, it is seen that there is a clear impact on many of the main roads leading into and out of *Indre by* such as *Ågade*, *Åboulevard*, *Nørre Allé* and *Tuborgvej*. Also, high activity points can be found for roads leading out of the city, e.g. *Frederikssundsvej*, *Jyllingevej*, *Roskildevej*, *Hareskovvej* and *Strandvejen*, indicating that those people with cars would have longer commutes. Thus riding a bike might not be as straight forward of an option, especially when considering the additional travel time and the unpredictable weather in Copenhagen.
+By **zooming in on the map**, it is seen that there is a clear impact on many of the main roads leading into and out of *Indre By* such as *Ågade*, *Åboulevard*, *Nørre Allé* and *Tuborgvej*. Also, high activity points can be found for roads leading out of the city, e.g. *Frederikssundsvej*, *Jyllingevej*, *Roskildevej*, *Hareskovvej* and *Strandvejen*, indicating that people with cars would have longer commutes. Thus riding a bike might not be a straight forward option, especially when considering the additional travel time and the unpredictable weather in Copenhagen.
 
 # Impact of the weather
 

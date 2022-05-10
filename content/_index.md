@@ -3,11 +3,8 @@ title: Biking to a cleaner future
 layout: single
 ---
 
-# Good better Copenhagen 
-At least 50% should bike to school or work, better bicycling parking facilities at stations, 30-40km additional tracks and lanes. Such are some of the initiatives stated in the initiative *Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025* introduced by the city council of Copenhagen in *2011*. Created as a part of making Copenhagen a carbon neutral city in the year of *2025*. With *2025* coming closer we take a deep dive into see just how the initiave have influence the copenhagernes bicyckling habbits, if one can spot changes looking at a 10-year period from *2009* to *2018*, and if vehicles still dominate the roads across Copenhagen.
-Finally we take a *hard* look on external factors, such as weather and temperature in order to anaylse and perhabs predict influences corralated with up's and down's in the habits of taking the car or bike. 
-
-**Include quick summation of what we will talk about?**
+# Good, better, Copenhagen 
+At least 50% percent should bike to school or work, better parking facilities for bicycles at stations, 30-40 km of additional tracks and lanes. Such are some of the goals stated in the initiative *Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025* introduced by the city council of Copenhagen in 2011. This was created as a part of making Copenhagen a carbon neutral city in the year of 2025 [1]. With 2025 coming closer, we take a deep dive to investigate just how the initiaves have influenced the copenhagernes' bicycling habits. We will look into whether changes at a 10-year period from 2009 to 2018 can be spotted, and if vehicles still dominate the roads across Copenhagen. Finally we include weather conditions to analyze their influences on our daily transportation patterns.
 
 # Data
 
@@ -25,10 +22,10 @@ Finally we take a *hard* look on external factors, such as weather and temperatu
 </iframe>
 </div>
 
-To conduct our analysis, we need some data. Thus the data used is a preprocessed [*traffic data set from OpenData*](https://www.opendata.dk/city-of-copenhagen/trafiktal), originally collected by the Copenhagen Municipality. The data has further been combined with the original raw dataset to gain further information and limited to a 10-year period of 2009 to 2018. The data is obtained by people (our so-called *counters*) who have stood at various locations in Copenhagen to count the number of passing bikes or cars. Most of the *counters* have been placed in central Copenhagen, Vesterbro and Nørrebro, along with some of the main roads. This can be seen on the map to the left, for which the reader is encouraged to explore. There are even a few *counters* in Frederiksberg, although the district not being within the municipality and no *counters* in Nordhavn.
+To conduct our analysis, we need some data. Thus the data used is a preprocessed [*traffic dataset from OpenData*](https://www.opendata.dk/city-of-copenhagen/trafiktal), originally collected by the Copenhagen Municipality. The data has further been combined with the original raw dataset to gain further information and limited to a 10-year period of 2009 to 2018. The data is obtained by people (our so-called *counters*) who have stood at various locations in Copenhagen to count the number of passing bikes and cars. Most of the *counters* have been placed in central Copenhagen, Vesterbro and Nørrebro, along with some of the main roads. This can be seen on the map to the left, for which the reader is encouraged to explore. There are even a few *counters* in Frederiksberg, although the district not being within the municipality, but no *counters* in Nordhavn.
 
 ## Inspection throughout years
-Firstly, let us look at the entire time period and the levels for bikes and cars for each year. The number of observations for our two modes of transport is steady throughout all years, although a drop is seen for the year of 2017. It might be tempting to jump the conclusion that there must have been less bikes and less cars within this year, but it is important to keep in mind that we are dealing with count data! So there could be other reasons for this dip. Let us inspect whether this is the case by **hovering** over the bars in the visualization.
+Firstly, let us look at the entire time period and the levels for bikes and cars for each year. The number of observations for our two modes of transport is steady throughout the years, although a drop is seen for the year of 2017. It might be tempting to jump the conclusion that there must have been less bikes and less cars within this year, but it is important to keep in mind that we are dealing with count data! So there could be other reasons for this dip. Let us inspect whether this is the case by **hovering** over the bars in the visualization.
 <iframe src="/html/num_obs_by_year.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -38,10 +35,10 @@ Firstly, let us look at the entire time period and the levels for bikes and cars
 	seamless="seamless"
 	frameborder="1">
 </iframe>
-We see that the fraction of bikes and cars stays somewhat constant for all years, but there are less counters for the year of 2017, which could have caused the drop. We would expect that the fewer counters you have, the less observations there will be. However, by further inspection, the number of counters might not be the entire reason for this phenomenon. The drop in counters from 2014 to 2015, for example, is 60 - the exact same as the drop in counters from 2015 to 2017. But the gap in the number of observations is much larger from 2015 to 2017, than between 2014 and 2015. Therefore, we could imagine that external factors could also have contributed to the drop.
+We see that the fraction of bikes and cars stays somewhat constant for all years, but there are less counters for the year of 2017, which could have caused the drop. We would expect that the fewer counters we have, the less observations there will be. However, by further inspection, the number of counters might not be the entire reason for this phenomenon. The drop in counters from 2014 to 2015, for example, is 60 - the exact same as the drop in counters from 2015 to 2017. However, the gap in the number of observations is much larger from 2015 to 2017, than between 2014 and 2015. Therefore, we could imagine that other factors could also have contributed to the drop.
 
 ## Inspection throughout months
-Next we can take a look at the monthly time period, accumulated throughout all of the years. From the *counting guide* **ref** we observe that the frequent counting months are May, Juni, August, September and October. Looking at the data we observe a relative high amount of observations in April. **Hovering** over the bar we are informed that infact the month of April is the 3. biggest 'counting month', despite not featuring as an official month from the guide. We can only guess as to why this is. However they do special countings orderer from external entities, such as the *University of Aarhus* or *Vejdirektoratet*, where more pressing matters might force them to count outside the regular schedule. 
+Nextly, we can take a look at the monthly time period, accumulated throughout all years. In a provided *counting guide* [2], we observe that the frequent counting months are May, June, August, September, and October. Looking at the data, we observe a relatively high amount of observations in April. By **hovering** over the bar, we are informed that the month of April is one of the months with most counters, despite not being featured as an official month from the guide. Unfortunately, we can only speculate on why this is the case. However, as they do special countings ordered by external entities, such as the *University of Aarhus* or *Vejdirektoratet*, more pressing matters might have forced them to count outside the regular schedule. 
 <iframe src="/html/num_obs_by_month.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -50,7 +47,7 @@ Next we can take a look at the monthly time period, accumulated throughout all o
 	seamless="seamless"
 	frameborder="1">
 </iframe>
-In August we notice a small amount of counters as well as a small amount of observations, which diverge from the guide once more, stating that August is a active counting month. However, a deeper look into the guide tells us that August, along with June, is a active month for counting pedestrians. Given at least one reason, why the amount of cars/bikes is so small. Adding that the small observations we have, simply could be miss-countings from the counting of pedestrians. 
+In August, we notice a small amount of counters along with a small amount of observations, which also diverges from the guide, stating that August is an active counting month. However, a deeper look into the guide tells us that August, along with June, are active months for counting pedestrians. Thus, it can be a reason why we see observations for these months, as some counters might have included bikes and cars in their countings.
 
 # Daily patterns
 As it is difficult to obtain sufficient information of patterns throughout years and months, let us look at the evolution throughout the day, from 7 to 19 as these are the limitations of the dataset. For both bikes and cars, the peaks are in the morning and in the afternoon, fitting with when most people need to go to work, school or other daily obligations and back home. For simplicity it is also possible to only look at cars or bikes, by **toggling** either cars or bikes off in the plot. 

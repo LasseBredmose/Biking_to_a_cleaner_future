@@ -104,37 +104,38 @@ By **zooming in on the map**, it is seen that there is a clear impact on many of
 <div>
 <iframe src="/html/map_weather.html"
 	sandbox="allow-same-origin allow-scripts"
-	width="50%"
+	width="70%"
 	height="500"
 	scrolling="no"
 	seamless="seamless"
 	frameborder="0"
 	align="right"
-	style="margin-right: 0.5em; margin-top: 0.4em; margin-bottom: 1em;">
+	style="margin-left: 0.5em; margin-top: 0.4em; margin-bottom: 1em;">
 
 </iframe>
 </div>
 
-...And now to the weather.  
-As mentioned earlier we have accuried data of the specific weather for **each??** of the days when the counting took place. The data is measured using three different weather stations, where each of them can measure precipitation, wind and/or temperature. The specific measure equipment for each of the weather stations can be seen, by **clicking** on each of the markers. In order to work further with the data, we have taken an average for the days where multiple weather stations have collected the same measurement-type.  
-
-In the figure/graphs? below we can see the measurements for the temperature, wind speed, and precipitation. **Note that the figures/graphs are only a subset of the data, as it can be hard to notice trends when observing the whole period.**  
+As mentioned earlier we have acquired data of the specific weather conditions for the days where the countings took place. The data is measured using three different weather stations, measuring precipitation, wind and/or temperature. The specific measurement type for each of the weather stations can be seen by **clicking** on the information markers on the map. In order to work further with the data, we have taken an average of the measurements for those days where multiple weather stations have collected the same measurement type.  
 <br/>
-
-Each data point is added as a circle on the graph, thus one can see which periods we have datapoints for. Luckly these are the same periods for which we have traffic observations. 
-For the temperature we observe that it almost always stays positive while frequently getting above 15 degrees celcius. Looking at both the temperature and precipitation, where there are very few days with high precipitation, implies most of the counting has taken part on sunny days. The wind speed does not seem to have a impact in the selection of days, where the counters have been out, as it fluctuate between 2 and 8 frequently. The reader is incurred to **click and drag** to explore weather data for the whole period. 
+<br/>
+<br/>
+<br/>
+<br/>
+In the graphs below we can see the measurements for the temperature, wind speed, and precipitation. Each data point is added as a dot on the graph, thus one can see which periods we have datapoints for.
+For the temperature, we observe that the values always stay positive while frequently getting above 15 degrees. Looking at both the temperature and precipitation, we observe that there are very few days with high precipitation, which implies that most of the counting has taken place on sunny days. The wind speed does not seem to have an impact in the selection of days, where the counters have been out, as it fluctuates between 2 and 8 m/s. The reader is incurred to **click and drag** to explore weather data for the whole period. 
 
 
 <iframe src="/html/temp_wind_precip_development.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
-	height="640"
+	height="630"
 	scrolling="no"
 	seamless="seamless"
 	frameborder="1"
 	style="margin-bottom: 1em;">
 </iframe>
 
+The impact of the weather conditions has been investigated in the following figures. Here, the average number of observations for bikes and cars are shown within different intervals for temperature, wind speed and precipitation. 
 
 <iframe src="/html/temp_wind_precip_bikescars.html"
 	sandbox="allow-same-origin allow-scripts"
@@ -145,45 +146,20 @@ For the temperature we observe that it almost always stays positive while freque
 	frameborder="1">
 </iframe>
 
-Considering the temperature, we see a trend for the average amount of bikes. As expected, the higher the temperature, the more bikes are seen in the streets. This trend, however, drops for temperatures higher than 20 degrees. Looking at the average amount of cars, we see (almost) the opposite trend. The average amount of cars  decrease as the temperature increase - again, until the temperature is higher than 20 degrees. Such relationship can be questioned as it might be caused by lack of data in the summer period where the temperature is usually at its highest. 
+Considering the temperature, we see a trend for the average number of bikes. As expected, the higher the temperature, the more bikes are seen in the streets. This trend, however, drops for temperatures higher than 20 degrees. Looking at the average number of cars, we see (almost) the opposite trend. The average number of cars decreases as the temperature increases - again, until the temperature is higher than 20 degrees. Such relationship can be questioned as it might be caused by lack of data in the Summer period where the temperature is usually at its highest. 
+In regard to the wind speed, we notice a larger average number of bikes being counted when the wind speed is less than 2 m/s. From this, it drops and becomes more steady throughout the remaining wind speed intervals. Thus, it seems like some people brave the weather during these windy days. However, it is noticed that when the wind speed is high, there is in average also more cars in the streets of Copenhagen. This does not come as a surprise since you will not be affected by the wind when sitting in a car.
+When it comes to precipitation, the traffic data did unfortunately (almost) not include days with precipitation. Thus, the figure does not include much information about the patterns in bikes or cars for days with precipitation.
 
-In regard to the wind speed, we notice a larger average amount of bikes being counted when the wind speed is less than 2 m/s.  From this, it drops and becomes more steady throughout the remaining wind speed intervals. Thus, it seems like  However, it is noticed that when the wind speed is high, there are in average also more cars in the streets of Copenhagen. 
-Precipitation: Unfortunetely, the traffic data did (almost) not include days with precipitation. Thus, the above plot does not include much information about the patterns in bikes or cars for days with precipitation.
+</br>
 
-# Machine Learning
-mldkjhfng
-nnmkdjnb
+Having an overview of how weather might impact the patterns in terms of modes of transportation, we have tried to conduct machine learning to predict the amount of cars and bikes given the weather conditions. The models that were used were various linear regression models and a random forest regressor. If interested, we encourage visiting our explainer notebook for a comprehensive review of these.
 
-ndlkfnb
-
-
-dnlkbnd  
-
-dlkgndkb  
-
-dlkgn kdn
-
- dkfg dlk
- 
-  dkgn dn 'dg 
-  dogj
-   djg
-   d jg
-   dgjk d
-   kg 
-   d 
-   
-   
-   doljgdælkg
-
-# Conclusion
-Looking at the figures we see that there does
+# Final Words
+- 
 
 
 # References
-## Links and websites
-* [Wiki_cyckling](https://en.wikipedia.org/wiki/Cycling_in_Copenhagen#Infrastructure)
-* [Cyckling, better and best](https://web.archive.org/web/20120906180553/http://www.kk.dk/sitecore/content/Subsites/CityOfCopenhagen/SubsiteFrontpage/LivingInCopenhagen/CityAndTraffic/CityOfCyclists/~/media/A6581E08C2EF4275BD3CA1DB951215C3.ashx)
-* [Urban cycling in cph](https://urbandevelopmentcph.kk.dk/node/14)
+* [1] Baykal, Ayfer(2011). "Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025", The city of Copenhagen, available at: <https://web.archive.org/web/20120906180553/http://www.kk.dk/sitecore/content/Subsites/CityOfCopenhagen/SubsiteFrontpage/LivingInCopenhagen/CityAndTraffic/CityOfCyclists/~/media/A6581E08C2EF4275BD3CA1DB951215C3.ashx>
+* [2] Henrichsen, Åse Boss and Spliid, Lone(2020). "Sådan udfører vi trafiktællinger i Københavns kommune". Municipality of Copenhagen: Københavns Teknik- og Miljøforvaltning. Available at <https://github.com/LasseBredmose/social_data_2022_project/blob/main/Trafiktællevejledning.pdf>
 
 ## [Explainer Notebook](https://deepnote.com/@maria-fogh/SocialDataProject2022-61ec0a5b-e327-402f-95c1-91c4aeb91c25)

@@ -4,10 +4,7 @@ layout: single
 ---
 
 # Good better Copenhagen 
-'Every other person should bike to school or work', better bicycling parking facilities at stations, 30-40km additional tracks and lanes. Such are some of the initiatives stated in the initiative *Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025* introduced by the city council of Copenhagen in *2011*. Created as a part of making Copenhagen a carbon neutral city in the year of *2025*. With *2025* coming closer we take a deep dive into see just how the initiave have influence the copenhagernes bicyckling habbits, if one can spot changes looking at a 10-year period from *2009* to *2018*, and if vehicles still dominate the roads across Copenhagen.
-Finally we take a *hard* look on external factors, such as weather and temperature in order to anaylse and perhabs predict influences corralated with up's and down's in the habits of taking the car or bike. 
-
-**Include quick summation of what we will talk about?**
+At least 50% percent should bike to school or work, better parking facilities for bicycles at stations, 30-40 km of additional tracks and lanes. Such are some of the goals stated in the initiative *Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025* introduced by the city council of Copenhagen in 2011 [1]. This was created as a part of making Copenhagen a carbon neutral city in the year of 2025. With 2025 coming closer, we take a deep dive to investigate just how the initiaves have influenced the copenhagernes' bicycling habits. We will look into whether changes at a 10-year period from 2009 to 2018 can be spotted, and if vehicles still dominate the roads across Copenhagen. Finally we include weather conditions to analyze their influences on our daily transportation patterns.
 
 # Data
 

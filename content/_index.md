@@ -142,28 +142,3 @@ dlkgn kdn
 * [Urban cycling in cph](https://urbandevelopmentcph.kk.dk/node/14)
 
 ## [Explainer Notebook](explainer-notebook.html)
-
-** The website **
-* Introduction/Motivation(short)
-* Tælledata, map hvor vi har talt henne. Ref til åsepiges pdf. 
-* Udviklingen gennem årerne. Sker ikke så meget, interessant i 2017. nok bare talt mindre? 
-
-
-# 4. Genre
-* Which gerne of data story did you use?
-> **magazine**The data is presented in a magasine with hints of slideshow. Giving us the opportunity to communicate our results in a nicely putted way, where the reader is not distracted by flashy icons or complicated buttons. Thus creating a narrative that is easy to follow, where the reader can create ones own view of that data. 
-
-* Which tools did you use from each of the 3 categories of Visual Narrative (Figure 7 in Segal and Heer). Why?
-> As to the visual narrative we have drawn inspiration from figure 7 given in Segal and Heer. 
->**establishing shot/splash screen** Here we structure the webpage with title, background image and quick overview of each sections in the top-bar. Given the reader a quick overview of what the article is about, and which areas he can expect to read about. 
->**Consistent visual platform and feature distinction** Further more we use the 'Consisten Visual Platform' and 'Feature Distinction' techniques, by keeping the same fond and colours throughtout the whole webpage. Keeping the colours in line with the background image, as well as having the same fond in **almost** all of our figures. The reader will then not have to get accustomed to new colours, or different plotting techniques. Thus he is able to focus on the narrative of our story. 
-
-* Which tools did you use from each of the 3 categories of Narrative Structure (Figure 7 in Segal and Heer). Why?
-> **Linear structure** The ordering of our story follows the linear structure, where the reader knows what lies ahead of him, and he can follow the red thread without other distractions. Giving the reader the opportunity for him to explore the webpage at his own pace. 
-> **Hover Highlighting** Most of our figures include hovering details, given the reader the chance to explore the data for him/her-self, as well as accompyning the narrative, if the reader has a hard time understanding a point. The highlighting includes typically extra information, used as a background for our narrative, where we mention the possibly for the reader to hover over our data. 
-> **Navigation buttons** From the topbar we have created navigational tools, such that the reader quickly can skim to the desired section. Thus allowing the reader to take a break from the page and quickly get accessed to the section he was at, or even sharing the article at a specific section. 
-**Filtering??**
->**Explicit Instruction** The test is accompanied with instructions to when and where the reader can interact with the plots. Thus the reader is not required to *explore* the webpage him/her-self using unwanted time to figure out when and how he/she should interact with the figures.
->**Captions/headlines** The webpage make use of captions under each figure carefully explaining what is seen. Further more the use of headlines makes sure that the reader knows instantly what the figure is about. 
->**Introductory text** The webpage has an introdution, serving as a teaser for the reader. The introduction quickly convers what the webpage is about, capturing the reader and introduces why the project is important. 
->**Summary** Conclusion?

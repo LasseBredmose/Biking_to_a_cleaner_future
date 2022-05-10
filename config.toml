@@ -6,9 +6,9 @@ relativeURLs = true
 theme = "theme" 
 [params]
     authors = ["Maria Mandrup Fogh", "Enny Tao", "Lasse Enevold Bredmose"]
-    notebook = "/explainer-notebook.html"
-    data = "https://drive.google.com"
-    github = "https://github.com/lassebredmose/Biking_to_a_cleaner_future"
+    notebook = "https://deepnote.com/@maria-fogh/SocialDataProject2022-61ec0a5b-e327-402f-95c1-91c4aeb91c25"
+    data = "https://github.com/LasseBredmose/social_data_2022_project/tree/main/data"
+    github = "https://github.com/LasseBredmose/social_data_2022_project"
     title = "Biking"
     subtitle = "to a cleaner future"
     description = "Analysing Åsepige data for at predictre fremtidens trends indenfor cykling"

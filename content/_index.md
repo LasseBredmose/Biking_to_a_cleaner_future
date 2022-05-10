@@ -131,6 +131,8 @@ As mentioned earlier we have required data of the specific weather for **each??*
 	frameborder="1">
 </iframe>
 
+The impact of the weather conditions has been investigated in the following plot. Here, the average number of observations for bikes and cars are plotted within different intervals for temperature, wind speed and precipitation. 
+
 <iframe src="/html/temp_wind_precip_bikescars.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -140,7 +142,12 @@ As mentioned earlier we have required data of the specific weather for **each??*
 	frameborder="1">
 </iframe>
 
-# ML
+Considering the temperature, we see a trend for the average amount of bikes. As expected, the higher the temperature, the more bikes are seen in the streets. This trend, however, drops for temperatures higher than 20 degrees. Looking at the average amount of cars, we see (almost) the opposite trend. The average amount of cars  decrease as the temperature increase - again, until the temperature is higher than 20 degrees. Such relationship can be questioned as it might be caused by lack of data in the summer period where the temperature is usually at its highest. 
+
+In regard to the wind speed, we notice a larger average amount of bikes being counted when the wind speed is less than 2 m/s.  From this, it drops and becomes more steady throughout the remaining wind speed intervals. Thus, it seems like  However, it is noticed that when the wind speed is high, there are in average also more cars in the streets of Copenhagen. 
+Precipitation: Unfortunetely, the traffic data did (almost) not include days with precipitation. Thus, the above plot does not include much information about the patterns in bikes or cars for days with precipitation.
+
+# Machine Learning
 mldkjhfng
 nnmkdjnb
 
@@ -166,7 +173,7 @@ dlkgn kdn
    
    doljgdælkg
 
-# What have You learned
+# Conclusion
 Looking at the figures we see that there does
 
 
@@ -177,39 +184,3 @@ Looking at the figures we see that there does
 * [Urban cycling in cph](https://urbandevelopmentcph.kk.dk/node/14)
 
 ## [Explainer Notebook](explainer-notebook.html)
-
-# 5. Visualisations
-* Explain the visualisations that you have chosen  
-
-As explained in the previous section, we have chosen to go with a minimalistic theme for our website. It should be easy reconizeable while not being distracting for the reader. We don't want to confuse the reader by implemting to many *flashy* stuff. This idea is reflected in our included visualisations as well.  
-
-Firstly we include a simple interactable point map, given the reader the opportunity to familiar him/her-self with the city of Copenhagen, and a easy introduction into where the data has been collected. This is an easy way to introduce the reader to the landscape. 
-
-Another type of visualisation we use is barplots. These are very informative for the reader, as it gives him/her a quick overview of date in in a simple manner.  
-When we look at the months and years we make use of stacked barplots. Enabeling the reader to get a sense of both the total amount of observations made in the specific period, while also showing the percentage of bikes/cars in the same period. This style highlights the amount of observation and also communicates the proportional values. 
-For daily patterns the bar plots are next to each other, as it provides the reader the chance to both compare bikes/cars, whilst also look at the individual patterns, by toggle of cars or bikes. This is a better style, as it we here look at different patterns between bikes and cars. 
-
-Lastly we have included heatmaps combined with a choropleth map style. The chorpleth offer the reader the opportunity to explore the difference neighborhoods total observation(of all time) of cars/bikes. Furthermore the reader can see in the heatmap where the hotspots are for cars/bikes. Thus we can both inform the reader in regards to the daily progress, and the important hot spots for the city of Copenhagen.
-
-* Why are they the right for the story you want to tell?
-**Har prøvet at blande begge spørgsmål til en samlet tekst**
-
-# 6. Discussion
-For this project we have had some miss and hits.  
-We have done extensive data analysis which have yielded interesting discoveries. Overall we have created some really good and interesting visualisations, which clearly demonstrate our dataset and helps the reader to understand the data. 
-
-We are happy with our data analysis, where we had lots of problems, but also overcome them together, using lot of the tools learned in the course. 
-* What went well?
-  * The overall road from getting the data, getting the raw data and merging them + preprocessing in such a way, that we have some illustrative and fairly represented data
-
-* What is still missing? What could be improve? Why?
-  * missing data, months, years? 
-  * Not consistent with counting spots each year.
-  * Compare with automatic countings. 
-  * Not enough data points to get a good Machine Learning Model. We are only looking in the summer interval. 
-  * The weather data examination could have been improved, by taking average days. 
-
-
-When working with the data one quickly discovers the incompletness of ones data. We found that we were heavily handicapped by the sparesome data samples. As each place had only been counted once a year, and many of the countings spots have shifted throughtout the years, resulting in a reduction of the patterns we could look at. 
-We expected to be able to see habits when combining our data with the DMI-data. However this did not yield the best of results, with a 
-

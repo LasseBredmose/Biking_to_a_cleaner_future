@@ -131,6 +131,15 @@ As mentioned earlier we have required data of the specific weather for **each??*
 	frameborder="1">
 </iframe>
 
+<iframe src="/html/temp_wind_precip_bikescars.html"
+	sandbox="allow-same-origin allow-scripts"
+	width="100%"
+	height="300"
+	scrolling="no"
+	seamless="seamless"
+	frameborder="1">
+</iframe>
+
 # ML
 mldkjhfng
 nnmkdjnb

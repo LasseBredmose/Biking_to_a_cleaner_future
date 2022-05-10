@@ -130,7 +130,7 @@ By **zooming in on the map**, it is seen that there is a clear impact on many of
 <iframe src="/html/temp_wind_precip_bikescars.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
-	height="300"
+	height="400"
 	scrolling="no"
 	seamless="seamless"
 	frameborder="1">

@@ -152,14 +152,12 @@ When it comes to precipitation, the traffic data did unfortunately (almost) not 
 
 </br>
 
-Having an overview of how weather might impact the patterns in terms of modes of transportation, we have tried to conduct machine learning to predict the amount of cars and bikes given the weather conditions. The models that were used were various linear regression models and a random forest regressor. If interested, we encourage visiting our explainer notebook for a comprehensive review of these.
+Having an overview of how weather might impact the patterns in terms of modes of transportation, we have tried to conduct machine learning to predict the amount of cars and bikes given the weather conditions. The models that were used were various linear regression models and a random forest regressor. If interested, we encourage visiting our [explainer notebook](https://deepnote.com/@maria-fogh/SocialDataProject2022-61ec0a5b-e327-402f-95c1-91c4aeb91c25) for a comprehensive review of these.
 
 # Final Words
-- 
+From our analysis, we have looked into our dataset, which contains measurements with the amount of bikes and cars in Copenhagen over a 10-year period. Here, we discovered that cars still remains the dominant mode of transport on the streets of Copenhagen despite the initiatives from the Copenhagen Municipality. From inspecting the dataset in terms of the years and the months, we found inconsistencies, such as how it is not the same number of counters that have participated each year, leading to a variation in terms of measurements taken. Also, the countings have only been conducted in late Spring and early Fall, causing biases in our dataset. This would have been resolved by finding automatically counted data at the same locations each year. From spatial and temporal patterns throughout the day, we observed how people get into and out of the city in accordance to work patterns, but still differently for cars and bikes. We also employed weather data to investigate the impact of different weather conditions. Here, it was also seen that the biases come into play, as most of our measurements are taken on sunny and warm days (without precipitation).
 
 
 # References
-* [1] Baykal, Ayfer(2011). "Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025", The city of Copenhagen, available at: <https://web.archive.org/web/20120906180553/http://www.kk.dk/sitecore/content/Subsites/CityOfCopenhagen/SubsiteFrontpage/LivingInCopenhagen/CityAndTraffic/CityOfCyclists/~/media/A6581E08C2EF4275BD3CA1DB951215C3.ashx>
-* [2] Henrichsen, Åse Boss and Spliid, Lone(2020). "Sådan udfører vi trafiktællinger i Københavns kommune". Municipality of Copenhagen: Københavns Teknik- og Miljøforvaltning. Available at <https://github.com/LasseBredmose/social_data_2022_project/blob/main/Trafiktællevejledning.pdf>
-
-## [Explainer Notebook](https://deepnote.com/@maria-fogh/SocialDataProject2022-61ec0a5b-e327-402f-95c1-91c4aeb91c25)
+* [1] Baykal, Ayfer(2011). "Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025", The city of Copenhagen, available [HERE](https://web.archive.org/web/20120906180553/http://www.kk.dk/sitecore/content/Subsites/CityOfCopenhagen/SubsiteFrontpage/LivingInCopenhagen/CityAndTraffic/CityOfCyclists/~/media/A6581E08C2EF4275BD3CA1DB951215C3.ashx)
+* [2] Henrichsen, Åse Boss and Spliid, Lone(2020). "Sådan udfører vi trafiktællinger i Københavns kommune". Municipality of Copenhagen: Københavns Teknik- og Miljøforvaltning. Available [HERE](https://github.com/LasseBredmose/social_data_2022_project/blob/main/Trafiktællevejledning.pdf)

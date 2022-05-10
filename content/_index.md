@@ -63,12 +63,12 @@ It is difficult to obtain sufficient information of patterns throughout the year
 It is worth noticing that there is a difference in the ratios between bikes and cars in the morning. From 7 to 8, the gap between the amount of cars and bikes is larger than from 9 to 10. This could be explained by how people with cars tend to have a longer commute e.g. having to get out of the city, or dropping off kids, thus having to leave their home earlier. With a car, traffic also plays a larger factor than with bikes. It would thus not be entirely surprising if there is a need for getting up earlier to avoid running into that.
 
 ## Spatial patterns
-Now that we know the daily evolution in the entire city, a question arises about whether the same trend is seen across the counting spots in the entire city. And if not, it would be interesting to inspect exactly which places that encounter a lot of changes in activity through the day.
+Knowing the daily development in activity in the entire city, a question arises about whether the same trend is seen across each counting spot. And if not, it would be interesting to inspect exactly which places that encounter a lot of changes in activity through the day.
 
 ### Bikes
-We start by investigating the changes in activity for the bikes. In our video, it is shown that there is constant activity around central Copenhagen throughout the entire day. Central Copenhagen, or *Indre by* is where we find many shopping opportunities, tourist attractions and workplaces. It is thus not surprising that this part will incur a lot of buzz with biking being a mode of transportation that makes it easy to get around to various attractions, cafés etc - even outside of rush hour.
+We start by investigating the changes in activity for the bikes. In the video below, it is shown that there is constant activity around central Copenhagen throughout the entire day. Central Copenhagen, or *Indre by* is where we find many shopping opportunities, tourist attractions and workplaces. It is thus not surprising that this part will incur a lot of buzz with biking being a mode of transportation that makes it easy to get around to various attractions, cafés etc., even outside of rush hour.
 
-By **playing** the movie with our heatmap, it can be seen that during rush hour, both in the morning and late afternoon, the activity has more of a spread, no longer being as concentrated around the center. The spread is e.g. towards *Nørrebro*. This would be due to how people get to and off work and would have to ride their bikes throughout the various districts outside center.
+By **playing** the video, it can be seen that during rush hour, both in the morning and late afternoon, the activity has more of a spread, no longer being as concentrated around the center. The spread is e.g. towards *Nørrebro*. This would be due to how people get to and off work and would have to ride their bikes throughout the various districts outside center.
 
 <iframe src="/html/map_time_bike.html"
 	id="left_frame"
@@ -81,7 +81,7 @@ By **playing** the movie with our heatmap, it can be seen that during rush hour,
 	style="margin-top: 1em; margin-bottom: 1em">
 </iframe>
 
-The reader is encouraged to use the **hover tool** to discover the aggregated total amounts of bikes in Copenhagen of the entire data set. From here, we see that Indre By is the district with by far the most bikes throughout the entire time period also, fitting with how the activity level is always high here.
+The reader is encouraged to use the **hover tool** to discover the aggregated total amount of bikes in Copenhagen. From here, we see that *Indre By* is the district with by far the most bikes throughout the entire time period also, fitting with how the activity level is always high here.
 
 ### Cars
 For cars, it is a bit of a different story, although similar in some areas. *Indre by* remains the district that constantly have high levels of activity, but interestingly, there is a larger spread of cars throughout various other districts than with bikes! This is especially seen during the morning and afternoon, which follows closely with how people with cars would have to ride longer distances and thus having to pass the outer districts too.

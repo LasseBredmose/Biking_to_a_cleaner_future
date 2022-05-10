@@ -4,7 +4,7 @@ layout: single
 ---
 
 # Good better Copenhagen 
-Every other should bike to school or work, better bicycling parking facilities at stations, 30-40km additional tracks and lanes. Such are some of the initiatives stated in the initiative *Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025* introduced by the city council of Copenhagen in *2011*. Created as a part of making Copenhagen a carbon neutral city in the year of *2025*. With *2025* coming closer we take a deep dive into see just how the initiave have influence the copenhagernes bicyckling habbits, if one can spot changes looking at a 10-year period from *2009* to *2018*, and if vehicles still dominate the roads across Copenhagen.
+'Every other person should bike to school or work', better bicycling parking facilities at stations, 30-40km additional tracks and lanes. Such are some of the initiatives stated in the initiative *Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025* introduced by the city council of Copenhagen in *2011*. Created as a part of making Copenhagen a carbon neutral city in the year of *2025*. With *2025* coming closer we take a deep dive into see just how the initiave have influence the copenhagernes bicyckling habbits, if one can spot changes looking at a 10-year period from *2009* to *2018*, and if vehicles still dominate the roads across Copenhagen.
 Finally we take a *hard* look on external factors, such as weather and temperature in order to anaylse and perhabs predict influences corralated with up's and down's in the habits of taking the car or bike. 
 
 **Include quick summation of what we will talk about?**
@@ -120,23 +120,35 @@ By **zooming in on the map**, it is seen that there is a clear impact on many of
 </div>
 
 ...And now to the weather.  
-As mentioned earlier we have required data of the specific weather for **each??** of the days when the counting took place. The data is measured using three different weather stations, where each of them can measure precipitation, wind and/or temperature. The specific measure equipment for each of the weather stations can be seen, by **clicking** on each of the markers. In order to work with the data, we have taken an average when for the days where multiple weather stations have collected the same measurement-type type.
+As mentioned earlier we have accuried data of the specific weather for **each??** of the days when the counting took place. The data is measured using three different weather stations, where each of them can measure precipitation, wind and/or temperature. The specific measure equipment for each of the weather stations can be seen, by **clicking** on each of the markers. In order to work further with the data, we have taken an average for the days where multiple weather stations have collected the same measurement-type.  
+
+In the figure/graphs? below we can see the measurements for the temperature, wind speed, and precipitation. **Note that the figures/graphs are only a subset of the data, as it can be hard to notice trends when observing the whole period.**  
+<br/>
+
+Each data point is added as a circle on the graph, thus one can see which periods we have datapoints for. Luckly these are the same periods for which we have traffic observations. 
+For the temperature we observe that it almost always stays positive while frequently getting above 15 degrees celcius. Looking at both the temperature and precipitation, where there are very few days with high precipitation, implies most of the counting has taken part on sunny days. The wind speed does not seem to have a impact in the selection of days, where the counters have been out, as it fluctuate between 2 and 8 frequently. The reader is incurred to **click and drag** to explore weather data for the whole period. 
+
 
 <iframe src="/html/temp_wind_precip_development.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
-	height="700"
+	height="640"
 	scrolling="no"
 	seamless="seamless"
-	frameborder="1">
+	frameborder="1"
+	style="margin-bottom: 1em;">
 </iframe>
 
+<<<<<<< HEAD
 The impact of the weather conditions has been investigated in the following plot. Here, the average number of observations for bikes and cars are plotted within different intervals for temperature, wind speed and precipitation. 
+=======
+
+>>>>>>> d9b8d4a394f250312c88bea29470f187a1e75e0f
 
 <iframe src="/html/temp_wind_precip_bikescars.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
-	height="400"
+	height="380"
 	scrolling="no"
 	seamless="seamless"
 	frameborder="1">

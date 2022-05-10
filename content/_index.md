@@ -139,11 +139,6 @@ For the temperature we observe that it almost always stays positive while freque
 	style="margin-bottom: 1em;">
 </iframe>
 
-<<<<<<< HEAD
-The impact of the weather conditions has been investigated in the following plot. Here, the average number of observations for bikes and cars are plotted within different intervals for temperature, wind speed and precipitation. 
-=======
-
->>>>>>> d9b8d4a394f250312c88bea29470f187a1e75e0f
 
 <iframe src="/html/temp_wind_precip_bikescars.html"
 	sandbox="allow-same-origin allow-scripts"
@@ -195,4 +190,4 @@ Looking at the figures we see that there does
 * [Cyckling, better and best](https://web.archive.org/web/20120906180553/http://www.kk.dk/sitecore/content/Subsites/CityOfCopenhagen/SubsiteFrontpage/LivingInCopenhagen/CityAndTraffic/CityOfCyclists/~/media/A6581E08C2EF4275BD3CA1DB951215C3.ashx)
 * [Urban cycling in cph](https://urbandevelopmentcph.kk.dk/node/14)
 
-## [Explainer Notebook](explainer-notebook.html)
+## [Explainer Notebook](https://deepnote.com/@maria-fogh/SocialDataProject2022-61ec0a5b-e327-402f-95c1-91c4aeb91c25)

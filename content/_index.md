@@ -163,10 +163,3 @@ dlkgn kdn
 * [Urban cycling in cph](https://urbandevelopmentcph.kk.dk/node/14)
 
 ## [Explainer Notebook](explainer-notebook.html)
-
-** The website **
-* Introduction/Motivation(short)
-* Tælledata, map hvor vi har talt henne. Ref til åsepiges pdf. 
-* Udviklingen gennem årerne. Sker ikke så meget, interessant i 2017. nok bare talt mindre? 
-
-

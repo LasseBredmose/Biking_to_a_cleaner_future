@@ -3,7 +3,7 @@ title: Biking to a cleaner future
 layout: single
 ---
 
-# Good, better, Copenhagen 
+# Good better Copenhagen 
 Every other should bike to school or work, better bicycling parking facilities at stations, 30-40km additional tracks and lanes. Such are some of the initiatives stated in the initiative *Good, Better, Best - The City of Copenhagen’s Bicycle Strategy 2011-2025* introduced by the city council of Copenhagen in *2011*. Created as a part of making Copenhagen a carbon neutral city in the year of *2025*. With *2025* coming closer we take a deep dive into see just how the initiave have influence the copenhagernes bicyckling habbits, if one can spot changes looking at a 10-year period from *2009* to *2018*, and if vehicles still dominate the roads across Copenhagen.
 Finally we take a *hard* look on external factors, such as weather and temperature in order to anaylse and perhabs predict influences corralated with up's and down's in the habits of taking the car or bike. 
 
@@ -53,8 +53,7 @@ Next we can take a look at the monthly time period, accumulated throughout all o
 In August we notice a small amount of counters as well as a small amount of observations, which diverge from the guide once more, stating that August is a active counting month. However, a deeper look into the guide tells us that August, along with June, is a active month for counting pedestrians. Given at least one reason, why the amount of cars/bikes is so small. Adding that the small observations we have, simply could be miss-countings from the counting of pedestrians. 
 
 # Daily patterns
-As it is difficult to obtain sufficient information of patterns throughout years and months, let us look at the evolution throughout the day, from 7 to 19 as these are the limitations of the dataset. For both bikes and cars, the peaks are in the morning and in the afternoon, fitting with when most people need to go to work, school or other daily obligations and back home. 
-
+As it is difficult to obtain sufficient information of patterns throughout years and months, let us look at the evolution throughout the day, from 7 to 19 as these are the limitations of the dataset. For both bikes and cars, the peaks are in the morning and in the afternoon, fitting with when most people need to go to work, school or other daily obligations and back home. For simplicity it is also possible to only look at cars or bikes, by **toggling** either cars or bikes off in the plot. 
 <iframe src="/html/num_obs_by_hour.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -66,7 +65,8 @@ As it is difficult to obtain sufficient information of patterns throughout years
 
 It is worth noticing that there is a difference in the ratios between bikes and cars in the morning. From 7 to 8, the gap between the amount of cars and bikes is larger than from 9 to 10. This could be due to how people with cars tend to have a longer commute e.g. having to get out of the city, or they could have kids that need to be dropped off, thus having to wake up earlier. With a car, traffic also plays a larger factor than with bikes. It would thus not be entirely surprising if there is a need for getting up earlier to avoid running into that.
 
-# Spatial patterns (KAN BLIVE LAVET TIL EN MINDRE SECTION)
+# Spatial patterns
+## (KAN BLIVE LAVET TIL EN MINDRE SECTION)
 Now that we know the daily evolution in the entire city, a question arises about whether the same trend is seen across the counting spots in the entire city. And if not, it would be interesting to inspect exactly which places that encounter a lot of changes in activity through the day.
 
 ## Bikes
@@ -104,6 +104,7 @@ For cars, it is a bit of a different story, although similar in some areas. *Ind
 By **zooming in on the map**, it is seen that there is a clear impact on many of the main roads leading into and out of *Indre by* such as *Ågade*, *Åboulevard*, *Nørre Allé* and *Tuborgvej*. Also, high activity points can be found for roads leading out of the city, e.g. *Frederikssundsvej*, *Jyllingevej*, *Roskildevej*, *Hareskovvej* and *Strandvejen*, indicating that those people with cars would have longer commutes. Thus riding a bike might not be as straight forward of an option, especially when considering the additional travel time and the unpredictable weather in Copenhagen.
 
 # Impact of the weather
+
 <div>
 <iframe src="/html/map_weather.html"
 	sandbox="allow-same-origin allow-scripts"
@@ -117,6 +118,9 @@ By **zooming in on the map**, it is seen that there is a clear impact on many of
 
 </iframe>
 </div>
+
+...And now to the weather.  
+As mentioned earlier we have required data of the specific weather for **each??** of the days when the counting took place. The data is measured using three different weather stations, where each of them can measure precipitation, wind and/or temperature. The specific measure equipment for each of the weather stations can be seen, by **clicking** on each of the markers. In order to work with the data, we have taken an average when for the days where multiple weather stations have collected the same measurement-type type.
 
 <iframe src="/html/temp_wind_precip_development.html"
 	sandbox="allow-same-origin allow-scripts"
